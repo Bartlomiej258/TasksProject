@@ -27,7 +27,11 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.0.33'
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '3.1.1'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '3.1.0'
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '5.4.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.3'
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
 
 
 }
